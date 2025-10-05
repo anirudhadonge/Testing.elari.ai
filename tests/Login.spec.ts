@@ -7,7 +7,7 @@ let loginPage:LoginPage;
 let homePage:ProjectPage;
 
 test.only("Login to application", async ({ page }: { page: Page }) => {
-    await page.goto(process.env.BASE_URL as string);
+    await page.goto(process.env.BASE_URL);
     loginPage = new LoginPage(page);
     await loginPage.goto(process.env.BASE_URL!.toString());
     await loginPage.loginToApplication(process.env.USERNAME!.toString(), process.env.PASSWORD!.toString());
