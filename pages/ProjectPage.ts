@@ -97,6 +97,7 @@ export class ProjectPage extends Basepage{
 
     async clickSelectBtn(){
         await this.clickOnElement(this.selectBtn);
+        await this.clickOnElement("//span[text()='Close']//ancestor::button");
     }
 
     async validateImportSuccess(){
