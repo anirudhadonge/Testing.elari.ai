@@ -2,11 +2,12 @@
 import { test,Page } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { ProjectPage } from '../pages/ProjectPage';
+import { ProductSearchPage } from '../pages/ProductSearchPage';
 
 let loginPage:LoginPage;
 let homePage:ProjectPage;
 
-test.only("Login to application", async ({ page }: { page: Page }) => {
+test("Login to application", async ({ page }: { page: Page }) => {
     await page.goto(process.env.BASE_URL);
     loginPage = new LoginPage(page);
     await loginPage.goto(process.env.BASE_URL!.toString());
@@ -22,4 +23,28 @@ test.only("Login to application", async ({ page }: { page: Page }) => {
     await homePage.enterBidDate("9/26/2025");
     await homePage.setCrossType("Value-Engineered");
     await homePage.clickProjectSave();
+})
+
+test("Navigation to menu pages",async({page})=>{
+        await page.goto(process.env.BASE_URL);
+    loginPage = new LoginPage(page);
+    await loginPage.goto(process.env.BASE_URL!.toString());
+    await loginPage.loginToApplication(process.env.USERNAME!.toString(), process.env.PASSWORD!.toString());
+    homePage = new ProjectPage(page);
+    await homePage.verifyHomePage();
+    await homePage.clickOnPageMenu("Accounts");
+})
+
+test.only("Product Search",async({page})=>{
+        await page.goto(process.env.BASE_URL);
+    loginPage = new LoginPage(page);
+    await loginPage.goto(process.env.BASE_URL!.toString());
+    await loginPage.loginToApplication(process.env.USERNAME!.toString(), process.env.PASSWORD!.toString());
+    homePage = new ProjectPage(page);
+    await homePage.verifyHomePage();
+    await homePage.clickOnSearchProduct();
+    const productSearch = new ProductSearchPage(page);
+    await productSearch.selectLinCard("RKB Auto 1");
+    await productSearch.inputSearchItem("Pendant");
+    await productSearch.validateSeachedProductIsListed('Pendant');
 })

@@ -12,6 +12,9 @@ export class ProjectPage extends Basepage{
     projectSaveBtn:string = ".mdc-button__label:has-text('Save')";
     bidDateInput:string="[formcontrolname='bidDate']";
     crossTypeDropDown:string ="[formcontrolname='crossType']";
+    menuLocator :string = '[aria-haspopup="menu"]';
+    menu:string=".mat-mdc-list-item-unscoped-content.mdc-list-item__primary-text";
+    productSearchLink = "[href='/product']";
 
     constructor(page: Page) {
         super(page);
@@ -60,5 +63,14 @@ export class ProjectPage extends Basepage{
     async setCrossType(crossType:string){
         await this.page.locator(this.crossTypeDropDown).click();
         await this.page.locator(`.mat-mdc-option.mdc-list-item:has-text('${crossType}')`).click();
+    }
+
+    async clickOnPageMenu(pageName:string){
+        await this.clickOnElement(this.menuLocator,1);
+        await this.clickOnElement(`${this.menu}:has-text('${pageName}')`);
+    }
+
+    async clickOnSearchProduct(){
+        await this.clickOnElement(this.productSearchLink);
     }
 }
