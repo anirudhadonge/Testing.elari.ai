@@ -7,7 +7,7 @@ import { ProductSearchPage } from '../pages/ProductSearchPage';
 let loginPage:LoginPage;
 let homePage:ProjectPage;
 
-test("Login to application", async ({ page }: { page: Page }) => {
+test.only("Login to application", async ({ page }: { page: Page }) => {
     await page.goto(process.env.BASE_URL);
     loginPage = new LoginPage(page);
     await loginPage.goto(process.env.BASE_URL!.toString());
@@ -22,6 +22,7 @@ test("Login to application", async ({ page }: { page: Page }) => {
     await homePage.selectLineCard("NYC - Combined ELA and Synergy");
     await homePage.enterBidDate("9/26/2025");
     await homePage.setCrossType("Value-Engineered");
+    await homePage.uploadFileInProject("file/Quote MHDN25303347.o2o");
     await homePage.clickProjectSave();
 })
 
@@ -35,8 +36,8 @@ test("Navigation to menu pages",async({page})=>{
     await homePage.clickOnPageMenu("Accounts");
 })
 
-test.only("Product Search",async({page})=>{
-        await page.goto(process.env.BASE_URL);
+test("Product Search",async({page})=>{
+    await page.goto(process.env.BASE_URL);
     loginPage = new LoginPage(page);
     await loginPage.goto(process.env.BASE_URL!.toString());
     await loginPage.loginToApplication(process.env.USERNAME!.toString(), process.env.PASSWORD!.toString());

@@ -1,3 +1,4 @@
+import path from 'path';
 import { Page, Locator } from 'playwright';
 
 export class Basepage{
@@ -31,5 +32,12 @@ export class Basepage{
 
     async waitforTimeOut(timeOut:number){
         await this.page.waitForTimeout(timeOut);
+    }
+
+    async uploadFile(locator:string, fileName:string){
+        const fileChooserPromise = this.page.waitForEvent('filechooser');
+        await this.page.locator(locator).click();
+        const fileChooser = await fileChooserPromise;
+        await fileChooser.setFiles(path.join(__dirname, fileName));
     }
 }

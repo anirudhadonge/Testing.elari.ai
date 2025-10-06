@@ -1,0 +1,690 @@
+<!--
+  O2O-Quote
+  Copyright: 2011 by Ingen Software, Inc.
+             All rights reserved
+  Useage: You are receiving this XML document because the company sending the
+          document has configured OASIS, indicating that you are also an OASIS
+          user or have the ability to process this file. See URL.
+  URL: http://support.oasissalessoftware.com/support/default.asp?W707
+
+  For more information, contact Ingen Software, Inc. at 501-843-6750
+-->
+
+<O2O-Quote>
+<VERSION  v='2.7.0' dbv='2.6.3' r='W1130C1 [R] '/>
+<DocumentDate>2025-06-16 07:24:26</DocumentDate>
+<From>
+<Party>
+<ROLE>Agency</ROLE>
+<NAME>The MH Companies</NAME>
+<LINE1>1044 Speer Blvd</LINE1>
+<CITY>Denver</CITY>
+<STATE>CO</STATE>
+<ZIP>80204</ZIP>
+<Contacts>
+<Contact>
+<FullName>David Gillette</FullName>
+<EMail>davidg@mhlighting.com</EMail>
+<PhoneNumber>720-904-8536</PhoneNumber>
+</Contact>
+</Contacts>
+</Party>
+</From>
+<FromDBID>MH-DEN08</FromDBID>
+<FromBusinessModel>R</FromBusinessModel>
+<To>
+<Party>
+<NAME>Graybar Electric DSC</NAME>
+<LINE1>480 E 55th Ave, Unit 500</LINE1>
+<CITY>Denver</CITY>
+<STATE>CO</STATE>
+<ZIP>80216</ZIP>
+</Party>
+</To>
+<MyQuoteDBID>MH-DEN08</MyQuoteDBID>
+<MyQuoteID>303347</MyQuoteID>
+<MyQuoteNumber>303347</MyQuoteNumber>
+<ProjectName>AdventHealth - Parker Hospital Expansion - Phase 2</ProjectName>
+<Alias>
+<Name>ADVENT HEALTH</Name>
+<Name>ADVENTIST</Name>
+<Name>OSC OR</Name>
+</Alias>
+<LocationCity>Parker</LocationCity>
+<LocationState>CO</LocationState>
+<Specifiers>
+<Party>
+<ROLE>ARCHITECT</ROLE>
+<NAME>Boulder Associates Architects</NAME>
+<LINE1>1426 Pearl St. Suite 300</LINE1>
+<CITY>Boulder</CITY>
+<STATE>CO</STATE>
+<ZIP>80302</ZIP>
+</Party>
+<Party>
+<ROLE>ENGINEER</ROLE>
+<NAME>Cator, Ruma &amp; Associates</NAME>
+<LINE1>896 Tabor Street</LINE1>
+<CITY>Lakewood</CITY>
+<STATE>CO</STATE>
+<ZIP>80401</ZIP>
+</Party>
+<Party>
+<ROLE>ENGINEER</ROLE>
+<NAME>Smith Group</NAME>
+<LINE1>899 Logan Street, Suite 508</LINE1>
+<CITY>Denver</CITY>
+<STATE>CO</STATE>
+<ZIP>80203</ZIP>
+</Party>
+</Specifiers>
+<BidDate>2025-06-16 05:15:00</BidDate>
+<ExpirationDate>2025-07-16 00:00:00</ExpirationDate>
+<Notes>******  LIGHTING MATERIAL NOTES  ******&#10;FREIGHT ESTIMATE INCLUDED&#10;&#10;SPARES ARE INCLUDED - STANDARD MANUFACTURER'S WARRANTIES APPLY</Notes>
+<Terms>Quotation Terms (1 through 10)&#10;&#10;1) Quotations are provided as a .pdf file as standard.  Additional quotation file types (.xls or .o2o) can be provided upon request.  When quotes are provided as a different file type, a .pdf version of the quote will also be attached.  In the event there are discrepancies between the .pdf quote and other format version, the .pdf quote takes precedence. Use of quotations in another file type is at the customers  risk.  Always verify other file formats against the .pdf quote.  MH is not responsible for discrepancies between the .pdf file and other file types.&#10;&#10;2) Customer is responsible for verifying fixture voltage and dimming type and if multiple or remote drivers or ballasts are required. Unless otherwise specified, drivers and ballasts will be 120v and fixtures will be single-level switched.&#10;&#10;3) Unless otherwise specified, prices do not include lamps, shipping, spare material, fuses, special finishes, extended warranties, installation, distributor stage &amp; store, or applicable taxes.&#10;&#10;4) With the current volatile nature of pricing due to tariffs, all pricing must be verified prior to order.&#10;&#10;5) Freight allowances are based upon a single release and shipment.&#10;&#10;6) Our freight cost estimates are provided as a courtesy and are subject to change due to factors like fuel prices, carrier rates, and other variables. The actual freight costs may differ, and customers are responsible for any differences. We are not liable for any discrepancies between estimated and actual freight costs.&#10;&#10;7) All quotations are subject to the manufacturer's standard terms and conditions of sale.&#10;&#10;8) Complete package must be taken as shown on quote for pricing to remain valid (No partials).&#10;&#10;9) All batteries purchased, whether as a part of a luminaire or an inverter, must be powered up no longer than 90 days after the date of shipment for the warranty to be valid.&#10;&#10;10) Product submittals will be provided once requested and are required to be approved prior to order release.  All LED luminaires are furnished as a complete assembly, luminaire submittals will include cut sheets with all specific luminaire options called out. Additional submittal information beyond what is included in the luminaire cut sheet for internal luminaire components (including drivers) are not provided as a part of the submittal package.&#10;&#10;Thank you for choosing The MH Companies for your lighting, lighting controls, roadway and traffic signal needs. Your business is greatly appreciated.</Terms>
+<Lines>
+<QuoteLine>
+<MyLineUID>8</MyLineUID>
+<Quantity>46.00</Quantity>
+<FixtureType>D1</FixtureType>
+<MyManufacturerID>DMF</MyManufacturerID>
+<CatalogNumber>M4NCRN MD20935WFO M4TRSCW </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>116.900000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>12</MyLineUID>
+<Quantity>10.00</Quantity>
+<FixtureType>D2</FixtureType>
+<MyManufacturerID>DMF</MyManufacturerID>
+<CatalogNumber>M4NCRN MD20935WFO M4TRSCW </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>116.900000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>16</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>TARIFF</FixtureType>
+<MyManufacturerID>DMF</MyManufacturerID>
+<CatalogNumber>TARIFF</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>357.0000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>235</MyLineUID>
+<Quantity>16.00</Quantity>
+<FixtureType>D3</FixtureType>
+<MyManufacturerID>PRES</MyManufacturerID>
+<CatalogNumber>LTR-4RD-H-SL10L-DM1 LTR-4RD-T-SL40K9MD-SS B* </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>195.700000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>17</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>D6</FixtureType>
+<MyManufacturerID>KENALL</MyManufacturerID>
+<CatalogNumber>BHDL4-FF-2FW-23L-35K9-CSS-G-RIG4-277-DIM1</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>527.5000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>18</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>EW2</FixtureType>
+<MyManufacturerID>KIM</MyManufacturerID>
+<CatalogNumber>WDM&#47;D&#47;48L-55&#47;4K7&#47;4F&#47;UNV&#47;BLT</CatalogNumber>
+<Description>HLI- AAL WHITE PAINTED DOME</Description>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>974.1000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>238</MyLineUID>
+<Quantity>25.00</Quantity>
+<FixtureType>S1</FixtureType>
+<MyManufacturerID>ENV</MyManufacturerID>
+<CatalogNumber>LED-RST-4FT-3M40W-4CCT SK-10FT-Y-LC-PD </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>60.500000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>21</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL3-6'</FixtureType>
+<MyManufacturerID>FINE</MyManufacturerID>
+<CatalogNumber>HP-2-R-D-6'-V-935-F-96LG-277-SC-FC-1&#37;-C*-FE-SW</CatalogNumber>
+<Notes>*Specify Mounting</Notes>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>558.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>22</MyLineUID>
+<Quantity>11.00</Quantity>
+<FixtureType>SL3A-4'</FixtureType>
+<MyManufacturerID>FINE</MyManufacturerID>
+<CatalogNumber>HP-2-R-D-4'-V-935-F-96LG-277-SC-FC-1&#37;-C*-FE-SW</CatalogNumber>
+<Notes>*Specify Mounting</Notes>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>343.2000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>23</MyLineUID>
+<Quantity>86.00</Quantity>
+<FixtureType>SL5</FixtureType>
+<MyManufacturerID>3GLTG</MyManufacturerID>
+<CatalogNumber>3GI-4RSL-CUS-S(4'0&quot;)-M3-10-30D-WG-4LI-D1000-DASY-WT-WH-WFP-H90-35K-UNV-DIM-2C-MOD</CatalogNumber>
+<Description>3.5&quot; Integrated Recessed Slot, 1 head at start of run ONLY,&#10;straight run (4' long), 2xMicro Madison dual axis downlight&#10;option, 1000lm output, 30D reflectors, white aluminum&#10;double gimbals, 3.5&quot; illuminated linia option, 1000lm per foot&#10;(direct), direct asymmetric lens, white trim flange (drywall),&#10;matte white powder coated housing finish, white faceplate,&#10;90+ CRI, 3500K, 120&#47;277V, Dimmable drivers (0-10V, 100-1&#37;),&#10;Dual circuit (separate downlight and linear circuits),&#10;MODIFIED to only include one madison head at the start of&#10;the run.</Description>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>608.8000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>24</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL6</FixtureType>
+<MyManufacturerID>3GLTG</MyManufacturerID>
+<CatalogNumber>3G-DL33RF-15-H95-35K-40D-UNV-DIM-XTR-WI-NCF-SF</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>180.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>239</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 13'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1900.0000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>240</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 18'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>2630.8000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>241</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 20'6&quot;</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>3069.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>25</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 21'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>2769.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>242</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 23'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>3361.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>243</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 27'6&quot;</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>4092.4000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>26</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 34'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>4483.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>27</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 35'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>4615.4000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>28</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 36'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>4747.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>29</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 37'6&quot;</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>5011.0000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>30</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 48'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>6197.8000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>31</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 57'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>7516.5000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>32</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 65'6&quot;</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>8703.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>33</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 70'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>9230.8000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>34</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL8 @ 89'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>11736.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>244</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL8 @ 142'</FixtureType>
+<MyManufacturerID>INTRA</MyManufacturerID>
+<CatalogNumber>TRACKER</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>20753.9000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>38</MyLineUID>
+<Quantity>21.00</Quantity>
+<FixtureType>SL11</FixtureType>
+<MyManufacturerID>3GLTG</MyManufacturerID>
+<CatalogNumber>3G-RMZ8-15-H90-35K-55D-UNV-DIM-BT-BLV-RMD</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>198.9000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>249</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-2'</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(2) LWS12F-08030 (4) LWS12F-MC (1) DTR16IP30 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>169.600000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>39</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-4'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(5) LWS12F-08030 (10) LWS12F-MC (1) DTR16IP30 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>292.900000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>44</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-7'</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(7) LWS12F-08030 (14) LWS12F-MC (1) DTR25IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>383.600000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>49</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-11'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(12) LWS12F-08030 (24) LWS12F-MC (1) DTR40IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>601.200000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>54</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL13-13'</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(13) LWS12F-08030 (26) LWS12F-MC (1) DTR40IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>642.300000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>59</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-15'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(16) LWS12F-08030 (32) LWS12F-MC (1) DTR40IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>765.600000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>64</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL13-16'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(17) LWS12F-08030 (34) LWS12F-MC (1) DTR60IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>810.300000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>69</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-17'</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(17) LWS12F-08030 (34) LWS12F-MC (1) DTR60IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>810.300000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>74</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-18'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(19) LWS12F-08030 (38) LWS12F-MC (1) DTR60IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>892.500000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>79</MyLineUID>
+<Quantity>3.00</Quantity>
+<FixtureType>SL13-23'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(24) LWS12F-08030 (48) LWS12F-MC (2) DTR60IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1176.600000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>84</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL13-26'</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(26) LWS12F-08030 (52) LWS12F-MC (1) DTR90IP67 (1) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1202.000000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>89</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-33'</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(33) LWS12F-08030 (66) LWS12F-MC (2) DTR60IP67 (2) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1579.500000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>94</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL13-35'6&quot;</FixtureType>
+<MyManufacturerID>BEUL</MyManufacturerID>
+<CatalogNumber>(36) LWS12F-08030 (72) LWS12F-MC (2) DTR60IP67 (2) LWS12F-TL48 </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1702.800000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>99</MyLineUID>
+<Quantity>129.00</Quantity>
+<FixtureType>SL16-4'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M04</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>455.0000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>100</MyLineUID>
+<Quantity>5.00</Quantity>
+<FixtureType>SL16A-6'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M06</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>648.4000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>101</MyLineUID>
+<Quantity>4.00</Quantity>
+<FixtureType>SL16B-16'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M16</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1626.4000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>102</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL16C-8'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M08</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>817.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>103</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL16D-12'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M12</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1263.8000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>104</MyLineUID>
+<Quantity>2.00</Quantity>
+<FixtureType>SL16E-10'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M10</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1083.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>105</MyLineUID>
+<Quantity>4.00</Quantity>
+<FixtureType>SL16F-14'</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NT1LD1BB90E1M14</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1457.2000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>106</MyLineUID>
+<Quantity>87.00</Quantity>
+<FixtureType>SL17</FixtureType>
+<MyManufacturerID>WILA</MyManufacturerID>
+<CatalogNumber>NU2-RD-SW-15LM-35K-90-20D-HET-WH-NC-UNV-DIM10</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>175.9000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>108</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL19</FixtureType>
+<MyManufacturerID>PARIS</MyManufacturerID>
+<CatalogNumber>GALA224363500-277V-0-10</CatalogNumber>
+<Description>GALAXY II MIRROR - 2 BANDS LED TO&#10;MIRROR'S EDGES - ALUMINUM POWDERED&#10;GRAY FRAME (FRONTLIT) - 24 x 36 - 3500K -RECTANGLE&#10;- APROX. LUMENS 3550 -DIMMABLE&#10;WHEN HARDWIRED TO DIMMER&#10;WALL SWITCH, UPGRADED TO 3500K LEDS&#10;and 277V 0-10 DIMMING DRIVER</Description>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1207.7000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>109</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SL19</FixtureType>
+<MyManufacturerID>PARIS</MyManufacturerID>
+<CatalogNumber>FREIGHT FOR MIRRORS</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>77.0000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>110</MyLineUID>
+<Quantity>76.00</Quantity>
+<FixtureType>T1</FixtureType>
+<MyManufacturerID>COL</MyManufacturerID>
+<CatalogNumber>CBT24-A-LSCS-EDD-C588</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>75.5000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>111</MyLineUID>
+<Quantity>39.00</Quantity>
+<FixtureType>T2</FixtureType>
+<MyManufacturerID>COL</MyManufacturerID>
+<CatalogNumber>CBT22-A-LSCS-EDD-C588</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>65.2000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>112</MyLineUID>
+<Quantity>56.00</Quantity>
+<FixtureType>T3</FixtureType>
+<MyManufacturerID>COL</MyManufacturerID>
+<CatalogNumber>LCAT24-9-35MLG-ED1U-C588</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>108.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>113</MyLineUID>
+<Quantity>22.00</Quantity>
+<FixtureType>T4</FixtureType>
+<MyManufacturerID>COL</MyManufacturerID>
+<CatalogNumber>LCAT24-9-35MLG-ED1U-C588</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>108.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>114</MyLineUID>
+<Quantity>4.00</Quantity>
+<FixtureType>T5</FixtureType>
+<MyManufacturerID>KENALL</MyManufacturerID>
+<CatalogNumber>M4SEDI-24-80L-35K9-DCC-277-2F-2H-SYM-RM-LEL</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1291.3000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>250</MyLineUID>
+<Quantity>46.00</Quantity>
+<FixtureType>T7</FixtureType>
+<MyManufacturerID>KENALL</MyManufacturerID>
+<CatalogNumber>CSEDI24-67L-35K8-DIM1-DV-2F-2H-SYM</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>639.6000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>115</MyLineUID>
+<Quantity>12.00</Quantity>
+<FixtureType>T8</FixtureType>
+<MyManufacturerID>FLUX</MyManufacturerID>
+<CatalogNumber>NB122B90E1MF</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>355.0000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>116</MyLineUID>
+<Quantity>4.00</Quantity>
+<FixtureType>T9</FixtureType>
+<MyManufacturerID>KENALL</MyManufacturerID>
+<CatalogNumber>MMAC24-G-0&#47;0-B-FA-67L35K9-DCC-DV-SP</CatalogNumber>
+<Description>SP = 90 CRI</Description>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>1108.8000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>117</MyLineUID>
+<Quantity>19.00</Quantity>
+<FixtureType>UC1</FixtureType>
+<MyManufacturerID>PRIMUS</MyManufacturerID>
+<CatalogNumber>FC7-L-35K-DO-UNV-SW277-W-4'</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>286.9000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>265</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>TAR</FixtureType>
+<MyManufacturerID>PRIMUS</MyManufacturerID>
+<CatalogNumber>TARIFF SURCHARGE</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>769.3500</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>119</MyLineUID>
+<Quantity>14.00</Quantity>
+<FixtureType>W1</FixtureType>
+<MyManufacturerID>OXYGEN</MyManufacturerID>
+<CatalogNumber>3-537-3515</CatalogNumber>
+<Description>ADELPHI 24&quot; 3500k VTY -BK</Description>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>213.7000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>120</MyLineUID>
+<Quantity>34.00</Quantity>
+<FixtureType>X1</FixtureType>
+<MyManufacturerID>EXI</MyManufacturerID>
+<CatalogNumber>S900U-LB-SR-G-AG S900U-SGM-FP </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>125.300000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>123</MyLineUID>
+<Quantity>11.00</Quantity>
+<FixtureType>X2</FixtureType>
+<MyManufacturerID>EXI</MyManufacturerID>
+<CatalogNumber>S900U-LB-SR-G-AG S900U-SGM-FP </CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>125.300000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>128</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>SPR</FixtureType>
+<MyManufacturerID>MISC</MyManufacturerID>
+<CatalogNumber>SPARE ALLOWANCE</CatalogNumber>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>6153.9000</SellPrice>
+</QuoteLine>
+<QuoteLine>
+<MyLineUID>131</MyLineUID>
+<Quantity>1.00</Quantity>
+<FixtureType>FRT</FixtureType>
+<MyManufacturerID>MISC</MyManufacturerID>
+<CatalogNumber>ESTIMATED FREIGHT</CatalogNumber>
+<Description>Our freight cost estimates are provided as a courtesy and are subject to change due to factors like fuel prices, carrier rates, and other variables. The actual freight costs may differ, and customers are responsible for any differences. We are not liable for any discrepancies between estimated and actual freight costs.</Description>
+<UnitQuantityCount>1</UnitQuantityCount>
+<SellPrice>3300.0000</SellPrice>
+</QuoteLine>
+</Lines>
+<PrimaryDocument>N</PrimaryDocument>
+</O2O-Quote>

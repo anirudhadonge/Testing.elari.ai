@@ -15,6 +15,7 @@ export class ProjectPage extends Basepage{
     menuLocator :string = '[aria-haspopup="menu"]';
     menu:string=".mat-mdc-list-item-unscoped-content.mdc-list-item__primary-text";
     productSearchLink = "[href='/product']";
+    uploadfileBtn="//span[text()=' Browse ']//ancestor::button";
 
     constructor(page: Page) {
         super(page);
@@ -72,5 +73,9 @@ export class ProjectPage extends Basepage{
 
     async clickOnSearchProduct(){
         await this.clickOnElement(this.productSearchLink);
+    }
+
+    async uploadFileInProject(fileName:string){
+        await this.uploadFile(this.uploadfileBtn,fileName);
     }
 }
