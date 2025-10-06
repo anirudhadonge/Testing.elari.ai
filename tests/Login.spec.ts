@@ -17,13 +17,17 @@ test.only("Login to application", async ({ page }: { page: Page }) => {
     await homePage.selectUser("India Training Account ");
     await homePage.validateUser("India Training Account ");
     await homePage.clickOnProjectBtn();
-    await homePage.enterProjectName("newProject");
+    let randomNumber =  Math.floor(Math.random()*(10000-100)+100);
+    await homePage.enterProjectName("newProject_"+randomNumber);
     await homePage.assigntUser("Deepak Borade ");
     await homePage.selectLineCard("NYC - Combined ELA and Synergy");
     await homePage.enterBidDate("9/26/2025");
     await homePage.setCrossType("Value-Engineered");
     await homePage.uploadFileInProject("file/Quote MHDN25303347.o2o");
     await homePage.clickProjectSave();
+    await homePage.selectProject("newProject_"+randomNumber);
+    await homePage.clickSelectBtn();
+    await homePage.validateImportSuccess();
 })
 
 test("Navigation to menu pages",async({page})=>{

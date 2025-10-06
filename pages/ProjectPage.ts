@@ -16,6 +16,10 @@ export class ProjectPage extends Basepage{
     menu:string=".mat-mdc-list-item-unscoped-content.mdc-list-item__primary-text";
     productSearchLink = "[href='/product']";
     uploadfileBtn="//span[text()=' Browse ']//ancestor::button";
+    importsBtn = "//div[text()='Imports']//ancestor::button";
+    importBtn = "//span[text()='Import']//ancestor::button";
+    selectBtn = "//span[text()='Select']//ancestor::button";
+    importSuccessfull = "//*[text()' O2O quote queued for import']";
 
     constructor(page: Page) {
         super(page);
@@ -77,5 +81,25 @@ export class ProjectPage extends Basepage{
 
     async uploadFileInProject(fileName:string){
         await this.uploadFile(this.uploadfileBtn,fileName);
+    }
+
+    async selectProject(projectName:string){
+        await this.clickOnElement(`//a[text()="${projectName}"]`);
+    }
+
+    async clickOnImports(){
+        await this.clickOnElement(this.importsBtn);
+    }
+     
+    async clickOnImport(){
+        await this.clickOnElement(this.importBtn);
+    }
+
+    async clickSelectBtn(){
+        await this.clickOnElement(this.selectBtn);
+    }
+
+    async validateImportSuccess(){
+        await expect(await this.getElement(this.importSuccessfull)).toBeVisible();
     }
 }

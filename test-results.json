@@ -1,10 +1,10 @@
 {
   "config": {
-    "configFile": "C:\\Users\\adonge2d\\source\\repos\\Testing.elari.ai\\Testing.elari.ai\\playwright.config.ts",
-    "rootDir": "C:/Users/adonge2d/source/repos/Testing.elari.ai/Testing.elari.ai/tests",
+    "configFile": "C:\\Repo\\Testing.elari.ai\\playwright.config.ts",
+    "rootDir": "C:/Repo/Testing.elari.ai/tests",
     "forbidOnly": false,
     "fullyParallel": true,
-    "globalSetup": "C:\\Users\\adonge2d\\source\\repos\\Testing.elari.ai\\Testing.elari.ai\\GlobalSetup\\GlobalSetup.ts",
+    "globalSetup": "C:\\Repo\\Testing.elari.ai\\GlobalSetup\\GlobalSetup.ts",
     "globalTeardown": null,
     "globalTimeout": 0,
     "grep": {},
@@ -37,7 +37,7 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Users/adonge2d/source/repos/Testing.elari.ai/Testing.elari.ai/test-results",
+        "outputDir": "C:/Repo/Testing.elari.ai/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -45,12 +45,12 @@
         },
         "id": "",
         "name": "",
-        "testDir": "C:/Users/adonge2d/source/repos/Testing.elari.ai/Testing.elari.ai/tests",
+        "testDir": "C:/Repo/Testing.elari.ai/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 60000
+        "timeout": 180000
       }
     ],
     "shard": null,
@@ -69,11 +69,11 @@
       "specs": [
         {
           "title": "Login to application",
-          "ok": true,
+          "ok": false,
           "tags": [],
           "tests": [
             {
-              "timeout": 60000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -82,23 +82,50 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 57593,
-                  "errors": [],
+                  "status": "timedOut",
+                  "duration": 183177,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Repo\\Testing.elari.ai\\pages\\ProjectPage.ts",
+                        "column": 59,
+                        "line": 30
+                      },
+                      "message": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.mat-mdc-button-persistent-ripple.mdc-button__ripple').nth(2)\u001b[22m\n\u001b[2m    - waiting for\" https://testing.elari.ai/callback\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://testing.elari.ai/callback\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ProjectPage.ts:30\n\n\u001b[0m \u001b[90m 28 |\u001b[39m     \u001b[36masync\u001b[39m selectUser(userName\u001b[33m:\u001b[39mstring){\n \u001b[90m 29 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m5000\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mheaderOption)\u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m`.mat-mdc-menu-item-text:has-text('${userName}')`\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m     }\n \u001b[90m 33 |\u001b[39m\u001b[0m\n\u001b[2m    at ProjectPage.selectUser (C:\\Repo\\Testing.elari.ai\\pages\\ProjectPage.ts:30:59)\u001b[22m\n\u001b[2m    at C:\\Repo\\Testing.elari.ai\\tests\\Login.spec.ts:17:5\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-26T11:01:21.270Z",
+                  "startTime": "2025-10-06T09:13:50.793Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Repo\\Testing.elari.ai\\test-results\\Login-Login-to-application\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Repo\\Testing.elari.ai\\test-results\\Login-Login-to-application\\video.webm"
+                    }
+                  ]
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
           "id": "42af536f2c838a173cb6-f4118fb7f120f3bb8874",
           "file": "Login.spec.ts",
-          "line": 9,
+          "line": 10,
           "column": 6
         }
       ]
@@ -106,11 +133,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-26T11:01:20.612Z",
-    "duration": 58843.874,
-    "expected": 1,
+    "startTime": "2025-10-06T09:13:49.786Z",
+    "duration": 184819.627,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
